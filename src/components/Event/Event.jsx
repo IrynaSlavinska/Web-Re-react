@@ -16,27 +16,23 @@ const Event = ({ name, location, speaker, type, start, end }) => {
     <div className={css.event}>
       <h2 className={css.title}>{name}</h2>
       <p className={css.info}>
-        <i className={css.icon}>
-          <FaMapMarkerAlt />
-        </i>
+        <FaMapMarkerAlt className={css.icon} />
+
         {location}
       </p>
       <p className={css.info}>
-        <i className={css.icon}>
-          <FaUserAlt />
-        </i>
+        <FaUserAlt className={css.icon} />
+
         {speaker}
       </p>
       <p className={css.info}>
-        <i className={css.icon}>
-          <FaCalendarAlt />
-        </i>
+        <FaCalendarAlt className={css.icon} />
+
         {formatedStart}
       </p>
       <p className={css.info}>
-        <i className={css.icon}>
-          <FaClock />
-        </i>
+        <FaClock className={css.icon} />
+
         {duration}
       </p>
       <span className={`${css.chip} ${css[type]}`}>{type}</span>
