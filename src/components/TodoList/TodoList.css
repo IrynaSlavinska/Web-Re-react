@@ -1,0 +1,27 @@
+.Todo-list {
+  background-color: white;
+  border-radius: 12px;
+  width: 600px;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.Todo-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: antiquewhite;
+  border-radius: 8px;
+}
+
+.Todo-text {
+  font-size: 20px;
+}
+
+.Todo-deleteBtn {
+  background-color: rgb(188, 240, 73);
+  padding: 8px;
+}

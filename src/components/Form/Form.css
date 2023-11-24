@@ -1,0 +1,45 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+  padding: 20px;
+  width: 400px;
+  align-items: center;
+  border-radius: 12px;
+}
+
+.formLabel {
+  margin-bottom: 20px;
+}
+
+.formInput {
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 8px;
+  width: 350px;
+  border: none;
+  margin-right: 4px;
+  margin-top: 8px;
+}
+
+.radioContainer {
+  display: flex;
+  gap: 24px;
+  margin-top: 4px;
+}
+
+.radioValue {
+  margin-left: 4px;
+}
+
+.checkBox {
+  margin-top: 16px;
+  margin-right: 4px;
+}
+
+.formBtn {
+  width: 370px;
+  padding: 12px;
+  background-color: rgb(188, 240, 73);
+  margin-top: 20px;
+}

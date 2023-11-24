@@ -1,0 +1,11 @@
+.filterLabel {
+}
+.filterInput {
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 8px;
+  width: 550px;
+  border: none;
+  margin-left: 12px;
+  margin-bottom: 20px;
+}
