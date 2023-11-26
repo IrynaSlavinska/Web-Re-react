@@ -1,0 +1,25 @@
+.TabsTask {
+  width: 600px;
+  margin: 50px auto;
+}
+
+.TabsContainer {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.TabBtn {
+  font-size: 20px;
+  padding: 16px 40px;
+  background-color: rgb(188, 240, 73);
+}
+
+.TabLabel {
+  margin-bottom: 12px;
+  font-size: 40px;
+}
+
+.TabContent {
+  font-size: 20px;
+}

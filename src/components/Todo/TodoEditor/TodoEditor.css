@@ -1,0 +1,18 @@
+.AddForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  width: 600px;
+}
+.AddText {
+  height: 100px;
+  border: none;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 16px;
+}
+.AddBtn {
+  background-color: rgb(188, 240, 73);
+  padding: 8px;
+}
