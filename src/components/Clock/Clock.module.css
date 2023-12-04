@@ -1,0 +1,13 @@
+.container {
+  text-align: center;
+}
+
+.clockface {
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.clockBtn {
+  padding: 10px 20px;
+  font-size: 20px;
+}

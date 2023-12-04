@@ -1,0 +1,11 @@
+.form {
+  width: 320px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
