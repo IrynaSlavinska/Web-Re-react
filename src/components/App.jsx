@@ -1,16 +1,22 @@
+import Counter from './Counter/Counter';
+import SkipFirstUseEffect from './SkipFirstUseEffect/SkipFirstUseEffect';
+import CounterUseReducer from './CounterUseReducer/Counter';
+import Friends from './Friends/Friends';
+
+import PokemonView from 'views/PokemonView';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div className="container">
+      <Counter />
+
+      <SkipFirstUseEffect />
+
+      <PokemonView />
+
+      <CounterUseReducer />
+
+      <Friends />
     </div>
   );
 };

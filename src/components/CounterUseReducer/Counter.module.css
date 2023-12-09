@@ -1,0 +1,21 @@
+.container {
+  text-align: center;
+  padding: 50px;
+  border-radius: 20px;
+  background-color: antiquewhite;
+}
+
+.btn {
+  display: inline-flex;
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+  padding: 15px 25px;
+  background-color: rgb(52, 195, 74);
+}
+
+.value {
+  margin: 0;
+  font-size: 64px;
+  font-family: monospace;
+}
